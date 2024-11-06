@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(199, 153, 153);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.carousel img:hover {
+    transform: scale(1.1);
+}
+.carousel img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: rgb(112, 110, 110);
+    text-align: center;
+    padding: 10px 0;
+}
